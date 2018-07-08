@@ -420,7 +420,9 @@
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing?
-         Used to decide if we show pulse settings -->
-    <bool name="config_ledCanPulse">true</bool>
+         Used to decide if we show pulse settings 
+    <bool name="config_ledCanPulse">true</bool> -->
+
+    <add-resource type="bool" name="config_ledCanPulse">true</add-resource>
 
 </resources>
